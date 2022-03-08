@@ -7827,7 +7827,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+	background-color: #DBE8E9 !important;
 }
 
 .bg-dark {
@@ -11281,11 +11281,11 @@ html {
 }
 
 .bg-black {
-  background-color: #000 !important;
+	background-color: #242425 !important;
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: linear-gradient(45deg, #10A0A8, #DBE8E9) !important;
 }
 
 .font-alt {
@@ -11397,7 +11397,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-image: url("https://images.dnr.state.mn.us/destinations/state_parks/1_large/SPK00181_004.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -11433,10 +11433,10 @@ section.cta:before {
   display: none;
 }
 .features-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
+  stop-color: #B9192C;
 }
 .features-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
+  stop-color: #F5BF2C;
 }
 .features-device-mockup .shape-1 {
   position: absolute;
@@ -11545,10 +11545,10 @@ footer a:hover, footer a:active, footer a:focus {
   display: none;
 }
 .masthead .masthead-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
+  stop-color: #B9192C;
 }
 .masthead .masthead-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
+  stop-color: #F5BF2C;
 }
 .masthead .masthead-device-mockup .shape-1 {
   position: absolute;

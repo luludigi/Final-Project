@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="UX/UI project group 6" />
+        <meta name="description" content="UX/UI project. This a marketing page for the Minnesota State Park mobile app." />
         <meta name="author" content="Emily Lu" />
         <title>Minnesota State Park</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -12,9 +12,9 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
         <!-- local CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 	    <style type="text/css">
@@ -27,25 +27,27 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top">Minnesota State Park</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand fw-bold" href="#page-top"><img src="assets/img/Logo.png" alt="Minnesota State Park Logo" width="188" height="56"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
-                </button>
+              </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
                     </ul>
+                    <!-- Contact Us botton
                     <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
                             <i class="bi-chat-text-fill me-2"></i>
                             <span class="small">Contact Us</span>
                         </span>
                     </button>
-                </div>
-            </div>
-        </nav>
+                    -->
+              </div>
+          </div>
+    </nav>
         <!-- Mashead header-->
         <header class="masthead">
             <div class="container px-5">
@@ -53,7 +55,8 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start style1">
-                            <h1 class="display-1 lh-1 mb-3">Minnesota State Park</h1>
+                            <h1 class="display-1 lh-1 mb-3">Minnesota <br>
+                            State Park</h1>
                             <p class="lead fw-normal text-muted mb-5">Effortlessly navigate around the park while learning the rich native history of the park in order to create a powerfully immerse experience.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="Google Play icon" /></a>
@@ -82,7 +85,7 @@
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
-                        <div class="h2 fs-1 text-seagreen mb-4">"An interactive map to help you discover more about the parks and learning Native American cultural - all wrapped up in a single app!" <br>
+                        <div class="h2 fs-1 text-seagreen mb-4">"An interactive map to help you discover more about the parks and learning Native American cultural - all wrapped up in a single app!"<br>
                         <em>5-Stars Rating from Park Visitors</em></div>
                         <img src="assets/img/5stars.png" alt="5-stars rating" width="205" height="69"/></div>
                 </div>
@@ -387,16 +390,17 @@
                             <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful. Thank you!</div>
-                                    
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
                                     <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message! Please try again.</div></div>
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
@@ -410,12 +414,12 @@
         <!-- * * SB form at https://startbootstrap.com/solution/contact-forms * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-      
 		<!-- Bootstrap Bundle -->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 	
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="js/scripts.js"></script><br>
+		<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

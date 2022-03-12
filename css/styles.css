@@ -7631,7 +7631,7 @@ textarea.form-control-lg {
 
 .fw-bold {
   font-weight: 700 !important;
-  color: #0E8187;
+  color: #0E8187
 }
 
 .fw-bolder {
@@ -11299,7 +11299,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background: -webkit-linear-gradient(#0E8187, #0E8187);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11323,6 +11323,7 @@ section {
 
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #0E8187;
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
   color: #2937f0;

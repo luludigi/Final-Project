@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #2937f0;
+  background-color: #0E8187;
 }
 
 .nav-fill > .nav-link,
@@ -7631,6 +7631,7 @@ textarea.form-control-lg {
 
 .fw-bold {
   font-weight: 700 !important;
+  color: #0E8187;
 }
 
 .fw-bolder {
@@ -7752,6 +7753,11 @@ textarea.form-control-lg {
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-seagreen {
+  --bs-text-opacity: 1;
+  color: 0E8187 !important;
 }
 
 .text-body {
@@ -11314,6 +11320,7 @@ section {
   padding-bottom: 1rem;
   background-color: #fff;
 }
+
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11326,7 +11333,7 @@ section {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #212529;
+  color: #0E8187;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #6c757d;

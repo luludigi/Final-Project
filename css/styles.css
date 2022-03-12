@@ -11370,23 +11370,23 @@ section {
   cursor: pointer;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
+.device[data-device=galaxyS5][data-orientation=portrait][data-color=black] {
   padding-bottom: 198.898071625%;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
-  top: 3.1855955679%;
-  left: 6.8870523416%;
-  width: 86.2258953168%;
-  height: 93.6288088643%;
+.device[data-device=galaxyS5][data-orientation=portrait][data-color=black] .screen {
+    top: -16px;
+    left: 6.8870523416%;
+    width: 86.2258953168%;
+    height: 488px;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
+.device[data-device=galaxyS5][data-orientation=portrait][data-color=black]::after {
   content: "";
   background-image: url("../assets/img/portrait_black.png");
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
+.device[data-device=galaxyS5][data-orientation=portrait][data-color=black] .button {
   display: none;
   top: 0%;
   left: 0%;
@@ -11395,11 +11395,11 @@ section {
 }
 
 section.cta {
-  position: relative;
-  padding: 15rem 0;
-  background-image: url("https://images.dnr.state.mn.us/destinations/state_parks/1_large/SPK00181_004.jpg");
-  background-position: center;
-  background-size: cover;
+    position: relative;
+    padding: 15rem 0;
+    background-image: url(../assets/img/bg-lg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 section.cta .cta-content {
   position: relative;

@@ -3,24 +3,26 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>MN State Park App</title>
+        <meta name="description" content="UX/UI project group 6" />
+        <meta name="author" content="Emily Lu" />
+        <title>Minnesota State Park</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+		<!-- Bootstrap CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- local CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-</head>
+	</head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
             <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top">MN State Park</a>
+                <a class="navbar-brand fw-bold" href="#page-top">Minnesota State Park</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="bi-list"></i>
@@ -33,7 +35,7 @@
                     <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
                             <i class="bi-chat-text-fill me-2"></i>
-                            <span class="small">Send Feedback</span>
+                            <span class="small">Contact Us</span>
                         </span>
                     </button>
                 </div>
@@ -47,36 +49,20 @@
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3">Minnesota State Park</h1>
-                            <p class="lead fw-normal text-muted mb-5">Effortlessly navigate around the park while sharing with them the rich native history of the place in order to create a powerfully immerse experience.</p>
+                            <p class="lead fw-normal text-muted mb-5">Effortlessly navigate around the park while learning the rich native history of the park in order to create a powerfully immerse experience.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
-                                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                                <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="Google Play icon" /></a>
+                                <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="Apple Store icon" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <!-- Masthead device mockup feature-->
+                    <!-- Section 1. Hero image and device mockup feature-->
                         <div class="masthead-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="50"></circle></svg
-                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+         
                             <div class="device-wrapper">
-                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
-                                        <!-- PUT CONTENTS HERE:-->
-                                        <!-- * * This can be a video, image, or just about anything else.-->
-                                        <!-- * * Set the max width of your media to 100% and the height to-->
-                                        <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/mobile-mockup.JPG" type="image" /></video>
+                                    <div class="screen">
+                                        <img src="assets/img/screen.gif" width="244" height="489" />
                                     </div>
                                 </div>
                             </div>
@@ -85,18 +71,18 @@
                 </div>
             </div>
         </header>
-        <!-- Quote/testimonial aside-->
+        <!-- Section 2. Quote/testimonial aside-->
         <aside class="text-center bg-gradient-primary-to-secondary">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">"An interactive map to help you discover more about the parks and learning Native American cultural - all wrapped up in a single app!" <br>
-                        <em>5-Stars Rating from National Park Fundation</em></div>
-                        <img src="assets/img/national park logo.png" alt="national park logo" width="80"/>                    </div>
+                        <em>5-Stars Rating from Park Visitors</em></div>
+                        <img src="assets/img/5stars.png" alt="5-stars rating" width="205" height="69"/></div>
                 </div>
             </div>
         </aside>
-        <!-- App features section-->
+        <!-- Section 3. App features section-->
         <section id="features">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
@@ -106,7 +92,7 @@
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-wifi-off icon-feature text-gradient d-block mb-3"></i>
+                                        <i class="bi-cloud-download icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Offline Capabilities</h3>
                                         <p class="text-muted mb-0">Download all your trails so you don't need the data connection in the park!</p>
                                     </div>
@@ -114,9 +100,9 @@
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt"> Explore with GoogleLens</h3>
-                                        <p class="text-muted mb-0">Use GoogleLens to learn about interesting things that you might see while at the park.</p>
+                                        <i class="bi-file-earmark-image icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Explore and Learn</h3>
+                                        <p class="text-muted mb-0">Click on the images on the trail map to learn about interesting things that you might see while at the park.</p>
                                   </div>
                                 </div>
                             </div>
@@ -132,7 +118,7 @@
                                 <div class="col-md-6">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-card-checklist icon-feature text-gradient d-block mb-3"></i>
+                                        <i class="bi-map icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Plan and Save Your Trips</h3>
                                         <p class="text-muted mb-0">Create a user profile then you can pre-plan and save your favorite trails.</p>
                                     </div>
@@ -162,7 +148,7 @@
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/opening-screeen.gif" type="video/gif" /></video>
                                     </div>
                                 </div>
                             </div>
@@ -171,13 +157,13 @@
                 </div>
             </div>
         </section>
-        <!-- Basic features section-->
+        <!-- Section 4. Storyteller-->
         <section class="bg-light">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12 col-lg-5">
                         <h2 class="display-4 lh-1 mb-4">Make your getaway to Itasca State park with this easy to use app!</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Create an educational, mobile experience that teaches our users about the Native history of the very land they stand on. Specifically, an interactive navigation app that focuses on exploring Itasca State Park that will feature facts about the Native culture, plants, and animals around them.</p>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">The app is available free from Apple and Android app stores. It uses a "GeoAlert" function to notify hikers with sound or vibration as they approach points of interest, such as rock formations and historic sites, along various routes within the park. Once you download the app to your smart phone, you can take the interpretive route of your choice, and you can go at your own pace. The app will help you notice things you might not otherwise have seen, like a live naturalist would.</p>
                     </div>
                     <div class="col-sm-8 col-md-6">
                         <div class="px-5 px-sm-0"><img src="assets/img/demo-screen.JPG" alt="State Park App" /></div>
@@ -185,21 +171,156 @@
                 </div>
             </div>
         </section>
-        <!-- Call to action section-->
+    <!-- SEction 5. Trail slides carousel-->
+	<section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+				<h3 class="font-alt">Explore the trails in the park</h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left">&#10094;</i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right">&#10095;</i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail1.JPG">
+                                        <div class="card-body">
+                                          <h4 class="card-title">Aiton Heights Fire Tower, Itasca State Park</h4>
+                                            <p class="card-text">The real hiking adventure of Banning State Park begins on the Quarry Nature Trail, which takes users alongside the state-designated Wild and Scenic Kettle River.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail2.JPG">
+                                        <div class="card-body">
+                                          <h4 class="card-title">Little Two Harbors Trail, Split Rock Lighthouse State Park</h4>
+                                            <p class="card-text">The Little Two Harbors shoreline trail highlights many of the features that make the North Shore of Lake Superior so special.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail3.JPG">
+                                        <div class="card-body">
+                                          <h4 class="card-title">Riverview Trail, Gooseberry Falls State Park</h4>
+                                            <p class="card-text">Six miles south of Split Rock Lighthouse State Park, Gooseberry Falls provides even more North Shore attractions in the form of rushing waterfalls.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail4.JPG">
+                                        <div class="card-body">
+                                            <h4 class="card-title">The North Country Scenic Trail</h4>
+                                            <p class="card-text">On the banks of the Whitewater River in southern Minnesota, the 27,000-acre Whitewater State Park provides many outdoor adventure opportunities just 25 miles east of Rochester.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail5.JPG">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Wolf Creek Falls Trail, Banning State Park</h4>
+                                            <p class="card-text">The real hiking adventure of Banning State Park begins on the Quarry Nature Trail, which takes users alongside the state-designated Wild and Scenic Kettle River.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail6.JPG">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Silver Creek Trail, Jay Cooke State Park</h4>
+                                            <p class="card-text">Serving as an origin point for the southern section of the Superior Hiking Trail, Jay Cooke State Park provides many additional trekking opportunities. </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail7.JPG">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Superior Hiking Trail</h4>
+                                            <p class="card-text">Encompassing the entirety of Lake Superior's North Shore, the Superior Hiking Trail (SHT) is Minnesota's crown jewel of hiking trails.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail8.JPG">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Glacial Pothole Trail, Interstate State Park</h4>
+                                            <p class="card-text">For a great roadside attraction, Minnesota's Interstate State Park provides fun terrain to explore and scramble over.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="assets/img/trail9.JPG">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Snelling Lake Trail, Fort Snelling State Park</h4>
+                                            <p class="card-text">Located only two miles east of the Minneapolis-Saint Paul International Airport, Fort Snelling State Park offers a quick natural respite amid the urban landscape. Set against the confluence of the Minnesota and Mississippi River.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	
+	<!-- Section 6. Call to action-->
         <section class="cta">
             <div class="cta-content">
                 <div class="container px-5">
                     <h2 class="text-white display-1 lh-1 mb-4">
-                        Create a profile. Plan your trip.<br>
-                        Save your favorite trails!</h2>
+                        Learn and expolre on the trails.<br>
+                        The park is in your pocket!</h2>
                     <h2 class="text-white display-1 lh-1 mb-4"><a class="btn btn-outline-light py-3 px-4 rounded-pill" href="#" target="_blank">Download the app</a> </h2>
                 </div>
             </div>
     </section>
-        <!-- App badge section-->
+        <!-- Section 7. Download App and Contact-->
         <section class="bg-gradient-primary-to-secondary" id="download">
             <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+                <h2 class="text-center text-white font-alt mb-4">Save time and download the app before you visit Minnesota State Park!</h2>
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
                     <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
                     <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
@@ -210,7 +331,10 @@
         <footer class="bg-black text-center py-5">
             <div class="container px-5">
                 <div class="text-white-50 small">
-                    <div class="mb-2">&copy; MN DNR 2022. All Rights Reserved.</div>
+                    <div class="mb-2">
+                      <p>&copy; 2022 Minnesota DNR | Questions? Call 651-296-6157. Email us: <a href="mailto: info.dnr@state.mn.us">info.dnr@state.mn.us</a></p>
+                      <a aria-label="facebook" class="facebook no-icon ext" href="https://www.facebook.com/MinnesotaDNR" title="facebook" data-extlink="" target="_blank" rel="noopener nofollow"><i aria-hidden="true" class="fab fa-facebook-f fa-2x"></i></a>
+                    </div>
                     <a href="#!">Contact</a>
                     <span class="mx-1">&middot;</span>
                     <a href="#!">Accessibility</a>
@@ -219,7 +343,7 @@
                 </div>
             </div>
         </footer>
-        <!-- Feedback Modal-->
+        <!-- Feedback Form-->
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -228,13 +352,9 @@
                         <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body border-0 p-4">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
+
+<!-- https://startbootstrap.com/solution/contact-forms-->
+
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
@@ -267,17 +387,16 @@
                             <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
+                                    <div class="fw-bolder">Form submission successful. Thank you!</div>
+                                    
                                     <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message! Please try again.</div></div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
@@ -285,14 +404,18 @@
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- Scroll to Top Button
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>-->
+	
+        <!-- * * SB form at https://startbootstrap.com/solution/contact-forms * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+      
+		<!-- Bootstrap Bundle -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
